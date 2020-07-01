@@ -69,7 +69,7 @@ html {
       border-top-right-radius: 10px;
       font-size: 18px;
       font-weight: 900;
-      background:#004d72;
+      background:#4e4b38;
       border: none;
       cursor: pointer;
       border-top: 2px solid #ffffff40;
@@ -122,40 +122,40 @@ html {
   
   
   @media screen and (max-width: 767px) {
-     .rac-pagina section#section__infosProduto img.icone__responsive {
+     .racipe-pagina section#section__infosProduto img.icone__responsive {
               width: 14% !important;
           }
   
-         .rac-pagina img.icone__reader {
+         .racipe-pagina img.icone__reader {
               width: 12% !important;
           }
   
   
-         .rac-pagina section#section__infosProduto img.icone__video {
+         .racipe-pagina section#section__infosProduto img.icone__video {
               width: 16% !important;
           }
   
-         .rac-pagina section#section__infosProduto img.icone__imagem {
+         .racipe-pagina section#section__infosProduto img.icone__imagem {
               width: 17% !important;
           }
   
-         .rac-pagina img.icone__radioButton {
+         .racipe-pagina img.icone__radioButton {
               width: 16% !important;
           }
   
   
-        /* .rac-pagina .box__valores {
+        /* .racipe-pagina .box__valores {
               width: 80% !important;
               height: auto !important;
           } */
   
   
-        .rac-pagina div#box__valores1 .texto,
-        .rac-pagina div#box__valores3 .texto {
+        .racipe-pagina div#box__valores1 .texto,
+        .racipe-pagina div#box__valores3 .texto {
               padding: 30px;
           }
   
-         .rac-pagina .box__valores .texto p.pequeno {
+         .racipe-pagina .box__valores .texto p.pequeno {
               font-size: 16px !important;
               line-height: 25px !important;
               /*padding: 15px;*/
@@ -175,41 +175,41 @@ html {
       width: 100%;
   } 
   
- .rac-pagina .toggle .tabs .tab {
+ .racipe-pagina .toggle .tabs .tab {
     cursor: pointer;
   }
   
- .rac-pagina .toggle .panels .panel {
+ .racipe-pagina .toggle .panels .panel {
     display: none;
   }
   
- .rac-pagina .toggle .panels .panel:first-child {
+ .racipe-pagina .toggle .panels .panel:first-child {
     display: block;
   }
   
   
- .rac-pagina {
+ .racipe-pagina {
       font-family: 'Lato', sans-serif;
   }
   
- .rac-pagina .container-medeletro {
+ .racipe-pagina .container-medeletro {
       max-width: 1020px;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
   }
   
- .rac-pagina  b {
+ .racipe-pagina  b {
       font-weight: 900;
   }
   
- .rac-pagina h4 {
+ .racipe-pagina h4 {
       font-size: 24px;
       font-weight: 900;
       color: white;
   }
   
- .rac-pagina p {
+ .racipe-pagina p {
       color: white;
       line-height: 28px;
       font-size: 18px;
@@ -217,20 +217,20 @@ html {
   }
   
   
- .rac-pagina div > p:last-of-type {
+ .racipe-pagina div > p:last-of-type {
       margin: 0;
   }
   
- .rac-pagina div > h1:last-of-type,
- .rac-pagina div > h1:first-of-type {
+ .racipe-pagina div > h1:last-of-type,
+ .racipe-pagina div > h1:first-of-type {
       margin: 0;
   }
   
- .rac-pagina section#section__infosProduto h1,
- .rac-pagina section#section__temas h1,
- .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo h1,
- .rac-pagina section#section__informacoesTecnicas h1,
- .rac-pagina section#section__valores h1 {
+ .racipe-pagina section#section__infosProduto h1,
+ .racipe-pagina section#section__temas h1,
+ .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo h1,
+ .racipe-pagina section#section__informacoesTecnicas h1,
+ .racipe-pagina section#section__valores h1 {
       font-size: 32px;
       color: white;
       line-height: 26px;
@@ -238,7 +238,7 @@ html {
       text-align: center;
       padding: 20px 30px;
       display: block;
-      background-color: #004d72;
+      background-color: #4e4b38;
       border-radius: 5px;
       margin: 0 auto;
       width: fit-content;
@@ -269,12 +269,12 @@ html {
   
   @media screen and (max-width: 992px ) and (orientation : landscape) {
     
-     .rac-pagina #section__home {
+     .racipe-pagina #section__home {
           display: none !important;
       }
   
       
-     .rac-pagina #section__home__landscape {
+     .racipe-pagina #section__home__landscape {
           display: flex !important;
       }
   
@@ -283,7 +283,7 @@ html {
   
     
     
-    .rac-pagina #nextSection {
+    .racipe-pagina #nextSection {
         width: 120px;
         /* position: absolute; */
         opacity: 0.3;
@@ -295,8 +295,8 @@ html {
       margin-bottom: 30px;
   }
   
-     .rac-pagina #section__home {
-          height: 100vh;
+     .racipe-pagina #section__home {
+          height: calc(100vh - 203px);
           background: url(../imgs/home-bg.jpg);
           display: flex;
           align-items: center;
@@ -309,7 +309,7 @@ html {
       }
   
   /*
-     .rac-pagina #section__home__landscape {
+     .racipe-pagina #section__home__landscape {
          min-height: 500px;
           background: url(../imgs/imagem-home.png) #032333;
           align-items: center;
@@ -334,7 +334,7 @@ html {
       letter-spacing: 5px;  
   }
   */
- .rac-pagina section#section__home h1 {
+ .racipe-pagina section#section__home h1 {
       color: #ffffff;
       text-align: justify;
       margin-top: 20px;
@@ -344,7 +344,7 @@ html {
       line-height: 32px;
   }
   
- .rac-pagina section#section__home h2 {
+ .racipe-pagina section#section__home h2 {
       color: white;
       font-size: 160px;
       font-weight: 800;
@@ -353,7 +353,7 @@ html {
       letter-spacing: 3px;
   }
   
- .rac-pagina section#section__home__landscape h2 {
+ .racipe-pagina section#section__home__landscape h2 {
       color: white;
       font-size: 160px;
       font-weight: 800;
@@ -363,7 +363,7 @@ html {
   }
   
   
- .rac-pagina section#section__home a.comprar {
+ .racipe-pagina section#section__home a.comprar {
       width: 293px;
       padding: 20px;
       border-radius: 100px;
@@ -378,7 +378,7 @@ html {
       margin-top: -20px;
   }
   
- .rac-pagina section#section__home__landscape a.comprar {
+ .racipe-pagina section#section__home__landscape a.comprar {
       width: 293px;
       padding: 20px;
       border-radius: 100px;
@@ -394,12 +394,12 @@ html {
   }
   
   
- .rac-pagina section#section__home__landscape a.comprar:hover { 
+ .racipe-pagina section#section__home__landscape a.comprar:hover { 
       background-color: #193620;
       transition: .5s;
   }
   
- .rac-pagina section#section__home a.comprar:hover { 
+ .racipe-pagina section#section__home a.comprar:hover { 
       background-color: #193620;
       transition: .5s;
   }
@@ -410,30 +410,30 @@ html {
   
   
   
- .rac-pagina section#section__infosProduto img.icone__responsive {
+ .racipe-pagina section#section__infosProduto img.icone__responsive {
       width: 14%;
   }
   
- .rac-pagina section#section__infosProduto img.icone__video {
+ .racipe-pagina section#section__infosProduto img.icone__video {
       width: 14%;
   }
   
- .rac-pagina section#section__infosProduto img.icone__imagem {
+ .racipe-pagina section#section__infosProduto img.icone__imagem {
       width: 16%;
   }
   
   
- .rac-pagina section#section__infosProduto {
-      /* background: #032333; */
+ .racipe-pagina section#section__infosProduto {
+      background: #c9db89;
       padding-bottom: 50px;
   }
   
- .rac-pagina section#section__infosProduto img.infosProdutoGif {
+ .racipe-pagina section#section__infosProduto img.infosProdutoGif {
       margin: 0 auto;
       display: block;
   }
   
- .rac-pagina section#section__infosProduto h3 {
+ .racipe-pagina section#section__infosProduto h3 {
       font-size: 30px;
       line-height: 44px;
       text-align: center;
@@ -441,7 +441,7 @@ html {
       font-weight: 200;
   }
   
- .rac-pagina section#section__infosProduto .box__infosProduto {
+ .racipe-pagina section#section__infosProduto .box__infosProduto {
       width: 30%;
       /*background-color: #193645;*/
       display: flex;
@@ -453,8 +453,8 @@ html {
       height: 190px;
   }
   
- .rac-pagina section#section__infosProduto .box__infosProduto .icone,
- .rac-pagina section#section__infosProduto .box__infosProduto .texto {
+ .racipe-pagina section#section__infosProduto .box__infosProduto .icone,
+ .racipe-pagina section#section__infosProduto .box__infosProduto .texto {
       /*min-height: 106px;*/
       display: flex;
       align-content: center;
@@ -465,24 +465,24 @@ html {
       flex-direction: column;
   }
   
- .rac-pagina section#section__infosProduto h2 {
+ .racipe-pagina section#section__infosProduto h2 {
       font-size: 34px;
       font-weight: 900;
-      color: #004d72;
+      color: #4e4b38;
       text-transform: uppercase;
       text-align: center;
   }
       
   
- .rac-pagina section#section__infosProduto .box__infosProduto .texto  span.large {
+ .racipe-pagina section#section__infosProduto .box__infosProduto .texto  span.large {
       font-weight: 900;
       font-size: 22px;
       margin-bottom: 5px;
       text-transform: uppercase;
-      color: #004d72;
+      color: #4e4b38;
   }
   
- .rac-pagina section#section__infosProduto .box__infosProduto .texto {
+ .racipe-pagina section#section__infosProduto .box__infosProduto .texto {
       color: white;
       font-size: 16px;
       text-align: center;
@@ -493,11 +493,11 @@ html {
   
   }
   
- .rac-pagina img.icone__radioButton {
+ .racipe-pagina img.icone__radioButton {
       width: 14%;
   }
   
- .rac-pagina img.icone__reader {
+ .racipe-pagina img.icone__reader {
       width: 10%;
   }
   
@@ -505,17 +505,17 @@ html {
       width: 14%;
   }
   
- .rac-pagina section#section__infosProduto  h2:first-of-type {
+ .racipe-pagina section#section__infosProduto  h2:first-of-type {
       margin-top: 30px;
   }
   
- .rac-pagina section#section__infosProduto  .section___row {
+ .racipe-pagina section#section__infosProduto  .section___row {
       display: flex;
       flex-direction: row;
       margin-bottom: 30px;
   }
   
- .rac-pagina section#section__infosProduto .box__infosProduto .icone {
+ .racipe-pagina section#section__infosProduto .box__infosProduto .icone {
       /*background: #30bf8f;*/
       width: 100%;
       border-top-right-radius: 10px;
@@ -524,25 +524,25 @@ html {
       justify-content: center;
   }
   
- .rac-pagina section#section__infosProduto .box__infosProduto .texto p {
+ .racipe-pagina section#section__infosProduto .box__infosProduto .texto p {
   /*    padding: 40px 10px;*/
       text-align: center;
       font-size: 18px;
       /*line-height: 30px;*/
-      /*font-weight: 400;*/
+      font-weight: 400;
   }
   
   
- .rac-pagina img.infosProdutoGif{
+ .racipe-pagina img.infosProdutoGif{
       max-width: 	100%;
   }
   
- .rac-pagina div#boxInfosProduto1 .icone {
+ .racipe-pagina div#boxInfosProduto1 .icone {
       width: 315px !important;
   }
   
   
- .rac-pagina div#boxInfosProduto2 .icone {
+ .racipe-pagina div#boxInfosProduto2 .icone {
       width: 244px !important;
   }
   
@@ -555,8 +555,8 @@ html {
   /* --------------------------------------------------------------------------------------------------------------------*/
   
   
- .rac-pagina section#section__temas {
-      background: #f5faf9;
+ .racipe-pagina section#section__temas {
+      background: #fbffec;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -565,13 +565,13 @@ html {
       height: auto !important;
   }
   
- .rac-pagina section#section__temas:before {
+ .racipe-pagina section#section__temas:before {
       content: '';
       width: 100%;
       height: 50px;
       display: block;
       position: relative;
-      background:white;
+      background: #c9db89;
       transform: rotate(-1deg);
       top: -25px;
       box-shadow: 1px 15px 11px #0000000a;
@@ -600,8 +600,13 @@ html {
       display: inline-block;
       vertical-align: text-bottom;
       filter: contrast(0.5);
-  }
+      margin-left: -30px;
+    }
   
+  section#section__temas .container-medeletro .coluna {
+      flex:1;
+  }
+ 
   section#section__temas .container-medeletro .coluna:first-of-type {
       padding-right: 123px;
   }
@@ -615,8 +620,8 @@ html {
   .mt-40 {
       margin-top: 80px !important;
   }
- .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .devices-comofunciona.mobile,
- .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .ipad-texto.mobile {
+ .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .devices-comofunciona.mobile,
+ .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .ipad-texto.mobile {
       display: none !important;
   }
   
@@ -627,24 +632,24 @@ html {
           padding: 20px 0 !important;
       }
   
-     .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .section__row {
+     .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .section__row {
           flex-direction: column !important;
       }
   
-     .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .section__column {
+     .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .section__column {
           width: 100% !important;
       }
   
-     .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .section__column img.ipad-texto {
+     .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .section__column img.ipad-texto {
           width: 60% !important;
       }
-     .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .devices-comofunciona.mobile,
-     .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .ipad-texto.mobile {
+     .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .devices-comofunciona.mobile,
+     .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .ipad-texto.mobile {
           display: block !important;
       }
   
-     .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .devices-comofunciona.desktop,
-     .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .ipad-texto.desktop {
+     .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .devices-comofunciona.desktop,
+     .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .ipad-texto.desktop {
           display: none !important;
       }
   
@@ -654,13 +659,13 @@ html {
   
   
   @media screen and (max-width: 767px) {
-     .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .section__column img.ipad-texto {
+     .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .section__column img.ipad-texto {
           width: 80% !important;
       }
   }
   
   
- .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .section__row {
+ .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .section__row {
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -668,161 +673,161 @@ html {
   }
   
   
- .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .section__column:first-of-type {
+ .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .section__column:first-of-type {
       margin-top: 10%;
   }
   
   
   
- .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .section__column img.ipad-texto {
+ .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .section__column img.ipad-texto {
       display: block;
       max-width: 70%;
       margin: 30px auto;
   }
   
- .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .section__column {
+ .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo .section__column {
       width: 50%;
   }
   
- .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo img.devices-comofunciona {
+ .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo img.devices-comofunciona {
       max-width: 100%;
       display: block;
       margin: 0 auto;
   }
   
- .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo p.texto-corrido {
+ .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo p.texto-corrido {
       margin-bottom: 30px;
   }
   
- .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo  h4 {
+ .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo  h4 {
       margin-bottom: 30px ;
       margin-top: 30px;
   }
   
   
- .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo{
+ .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo{
       background: #fafafa;
       box-shadow: 0px -8px 100px rgba(0,0,0,0.15);
       padding-bottom: 100px;
   }
   
- .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo h1 {
+ .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo h1 {
       margin-top: -35px;
   }
   
- .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo h4,
- .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo p {
+ .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo h4,
+ .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo p {
       color: #032333;
   }
   
- .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo p {
+ .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo p {
       line-height: 32px;
   }	
   
- .rac-pagina .p1 {
+ .racipe-pagina .p1 {
       margin-top: 50px;
       margin-bottom: 40px;
   }
   
   
- .rac-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo {
+ .racipe-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo {
       width: 327px !important;
       height: 275px;
       border-radius: 10px;
       background:white;
-      /* border: 5px solid #004d72; */
+      /* border: 5px solid #4e4b38; */
       box-shadow: 0px 1px 22px rgba(0,0,0,0.05);
       align-items: center;
       margin-right: 20px;
   }
   
- .rac-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo .icone,
- .rac-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo .texto {
+ .racipe-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo .icone,
+ .racipe-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo .texto {
       text-align: center;
       margin: 0 auto;
   }
   
   
- .rac-pagina .box-container .box__imedFeitoSobMedidaParaOSeuObjetivo:last-of-type {
+ .racipe-pagina .box-container .box__imedFeitoSobMedidaParaOSeuObjetivo:last-of-type {
       margin-right: 0;
   }
   
- .rac-pagina .box-container {
+ .racipe-pagina .box-container {
       display: flex;
       flex-direction: row;
       margin-bottom: 30px;
   }
   
- .rac-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo .icone img {
+ .racipe-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo .icone img {
       margin-bottom: 20px;	
   }
   
   
   
- .rac-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo .texto p {
+ .racipe-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo .texto p {
       color: #fff !important;
       text-align: center !important;
       margin: 0;
       font-size: 20px;
   }
   
- .rac-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo .texto p.reduzido {
+ .racipe-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo .texto p.reduzido {
       font-size: 16px;
   }
   
- .rac-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo .texto p {
+ .racipe-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo .texto p {
       line-height: 23px !important;
   }
       
- .rac-pagina img.icone__oEscritorQueOsConfeccionou {
+ .racipe-pagina img.icone__oEscritorQueOsConfeccionou {
       margin-bottom: 11px !important;
       margin-top: 12px;
       width: 54px;
       margin-left: 0px;
   }
   
- .rac-pagina img.icone__voce {
+ .racipe-pagina img.icone__voce {
       width: 86px;
       margin-top: 15px !important;
       margin-bottom: 10px !important;
   }
   
- .rac-pagina img.icone__livroEletronico {
+ .racipe-pagina img.icone__livroEletronico {
       margin: 9px !important;
   }
   
   
   
- .rac-pagina div#box__imedFeitoSobMedidaParaOSeuObjetivo1::before {
+ .racipe-pagina div#box__imedFeitoSobMedidaParaOSeuObjetivo1::before {
       content: '1';
   }
   
- .rac-pagina div#box__imedFeitoSobMedidaParaOSeuObjetivo2::before {
+ .racipe-pagina div#box__imedFeitoSobMedidaParaOSeuObjetivo2::before {
       content: '2';
   }
   
- .rac-pagina div#box__imedFeitoSobMedidaParaOSeuObjetivo3::before {
+ .racipe-pagina div#box__imedFeitoSobMedidaParaOSeuObjetivo3::before {
       content: '3';
   }
   
- .rac-pagina div.box__imedFeitoSobMedidaParaOSeuObjetivo::before {
-      border-radius: 5px;
-      background:#d3dfe4 !important;
-      color:#193645;
-      content: '1';
-      height: 50px;
-      width: 50px;
-      position: relative;
-      top: -15px;
-      left: -15px;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 28px;
-      /* text-shadow: 0px 1px 2px rgba(0,0,0,0.2); */
-      border: 2px solid #b7cad2;
-      font-weight: 900;
+ .racipe-pagina div.box__imedFeitoSobMedidaParaOSeuObjetivo::before {
+    border-radius: 5px;
+    background: #c9db89 !important;
+    color: #4e4b38;
+    content: '1';
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -15px;
+    left: -15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    /* text-shadow: 0px 1px 2px rgba(0,0,0,0.2); */
+    border: 2px solid #a7b965;
+    font-weight: 900;
   }
   
   
@@ -831,19 +836,19 @@ html {
   /* --------------------------------------------------------------------------------------------------------------------*/
   
   
- .rac-pagina section#section__informacoesTecnicas {
+ .racipe-pagina section#section__informacoesTecnicas {
       padding-bottom: 50px;
   }
   
   
   
- .rac-pagina .box__informacoesTecnicas {
+ .racipe-pagina .box__informacoesTecnicas {
       display: flex !important;
       height: auto !important;
       margin: 70px 0 !important;
   }
   
- .rac-pagina .coluna__imagem {
+ .racipe-pagina .coluna__imagem {
       width: 100%;
       background: #30bf8f;
       display: flex;
@@ -853,61 +858,61 @@ html {
       border-bottom-left-radius: 10px;
   }
   
- .rac-pagina .coluna__texto {
+ .racipe-pagina .coluna__texto {
       background: #193645;
       border-top-right-radius: 10px;
       border-bottom-right-radius: 10px;
   }
   
- .rac-pagina .tabs {
+ .racipe-pagina .tabs {
       display: flex;
       width: 100%;
-      background: #d3dfe4;
+      background: #c9db89;
       border-top-right-radius: 10px;
   }
   
   
- .rac-pagina .tabs .tab {
+ .racipe-pagina .tabs .tab {
       padding: 15px;
       color: #193645;
   }
   
- .rac-pagina .tabs .tab.active {
+ .racipe-pagina .tabs .tab.active {
       background:#ffffff;
   }
   
- .rac-pagina .panels {
+ .racipe-pagina .panels {
       padding: 0 35px;
       margin-top: 25px;
       margin-bottom: 25px;
       width: 580px;
   }
   
- .rac-pagina .panel hr {
+ .racipe-pagina .panel hr {
       opacity: 0.1;
   }
   
- .rac-pagina .tab img {
+ .racipe-pagina .tab img {
       margin-right: 10px;
       vertical-align: middle;
   }
   
- .rac-pagina span.windows,
- .rac-pagina span.macOS,
- .rac-pagina span.dispositivosMoveis {
+ .racipe-pagina span.windows,
+ .racipe-pagina span.macOS,
+ .racipe-pagina span.dispositivosMoveis {
       position: relative;
       top: 2px;
   }
   
   
- .rac-pagina #section__informacoesTecnicas .box__botoes {
+ .racipe-pagina #section__informacoesTecnicas .box__botoes {
       display: flex;
       flex-direction: column;
   }
- .rac-pagina #section__informacoesTecnicas a.btn_informacoesTecnicas {
+ .racipe-pagina #section__informacoesTecnicas a.btn_informacoesTecnicas {
       padding: 15px 30px;
       border-radius: 100px;
-      background-color: #004d72;
+      background-color: #4e4b38;
       font-size: 16px;
       color: white;
       text-align: center;
@@ -920,16 +925,16 @@ html {
       margin-right: 20px;
   }
   
- .rac-pagina #section__informacoesTecnicas a:hover { 
+ .racipe-pagina #section__informacoesTecnicas a:hover { 
       background-color: #20a87b;
       transition: .5s;
   }
   
   
- .rac-pagina .panels p {
+ .racipe-pagina .panels p {
       line-height: 24px;
   }
- .rac-pagina .panel hr {
+ .racipe-pagina .panel hr {
       opacity: 0.5;
       width: 100%;
       border-top: 1px solid rgba(255, 255, 255, 0.12);
@@ -941,16 +946,17 @@ html {
   /* ----------------------------------------------- Valores  --------------------------------------------*/
   /* -----------------------------------------------------------------------------------------------------*/
   
- .rac-pagina #section__valores .box-container {
+ .racipe-pagina #section__valores .box-container {
       margin-bottom: 0 !important;
   }
   
- .rac-pagina #section__valores {
+ .racipe-pagina #section__valores {
+    background: white;
       padding-bottom: 70px;
       box-shadow: 0px -13px 22px rgba(0,0,0,0.04);
   }
   
- .rac-pagina #section__valores p.paragrafo {
+ .racipe-pagina #section__valores p.paragrafo {
       color: #032333;
       font-size: 18px;
       text-align: justify;
@@ -966,11 +972,11 @@ html {
       margin-bottom: 50px !important;
   }
   
- .rac-pagina section#section__valores .box-container {
+ .racipe-pagina section#section__valores .box-container {
       margin-top: 70px;
   }
   
- .rac-pagina .box__valores {
+ .racipe-pagina .box__valores {
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -978,16 +984,16 @@ html {
       margin-right: 20px;
   }
   
- .rac-pagina .box__valores:last-of-type {
+ .racipe-pagina .box__valores:last-of-type {
       margin-right: 0 !important;
   }
   
- .rac-pagina .box__valores .titulo {
+ .racipe-pagina .box__valores .titulo {
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
   }
   
- .rac-pagina .box__valores .texto {
+ .racipe-pagina .box__valores .texto {
       border-bottom-left-radius: 10px;
       border-bottom-right-radius: 10px;
       height: 100%;
@@ -997,11 +1003,11 @@ html {
       justify-content: center;
   }
   
- .rac-pagina .box__valores .texto p {
+ .racipe-pagina .box__valores .texto p {
       margin: 2px;
   }
   
- .rac-pagina .box__valores .texto p.grande{
+ .racipe-pagina .box__valores .texto p.grande{
       font-size: 80px;
       margin: 15px;
       font-weight: 900;
@@ -1009,33 +1015,33 @@ html {
   
   
   
- .rac-pagina .box__valores .texto p.pequeno {
+ .racipe-pagina .box__valores .texto p.pequeno {
       font-size: 13px;
       line-height: 18px;
       padding: 15px;
   }
   
   
- .rac-pagina .box__valores .texto p.pequeno:first-of-type {
+ .racipe-pagina .box__valores .texto p.pequeno:first-of-type {
       margin-bottom: 12px;
   }
   
- .rac-pagina .box__valores .texto p.pequeno:last-of-type {
+ .racipe-pagina .box__valores .texto p.pequeno:last-of-type {
       margin-top: 25px;
   }
   
- .rac-pagina .box__valores .texto p.medio {
+ .racipe-pagina .box__valores .texto p.medio {
       font-size: 30px;
       font-weight: 900;
   }
   
   
- .rac-pagina .box__valores .texto p {
+ .racipe-pagina .box__valores .texto p {
       color: gray;
   }
   
   
- .rac-pagina .box__valores .titulo h5 {
+ .racipe-pagina .box__valores .titulo h5 {
       text-transform: uppercase;
       text-align: center;
       font-size: 22px;
@@ -1047,57 +1053,57 @@ html {
   
   
   
- .rac-pagina #box__valores1 .texto p {
+ .racipe-pagina #box__valores1 .texto p {
       color: #487b96;
   }
   
- .rac-pagina #box__valores2 .texto p {
+ .racipe-pagina #box__valores2 .texto p {
       color: #214152;
   }
   
- .rac-pagina #box__valores3 .texto p {
+ .racipe-pagina #box__valores3 .texto p {
       color: #0a557d;
   }
   
   
   
- .rac-pagina #box__valores1 .titulo {
+ .racipe-pagina #box__valores1 .titulo {
       background: #487b96;
       padding: 25px;
   
   }
   
- .rac-pagina #box__valores1 .texto {
+ .racipe-pagina #box__valores1 .texto {
       border: 3px solid #487b96;
   }
   
   
   
   
- .rac-pagina #box__valores2 .titulo {
+ .racipe-pagina #box__valores2 .titulo {
       background: #214152;
       padding: 25px;
   
   }
   
- .rac-pagina #box__valores2 .texto {
+ .racipe-pagina #box__valores2 .texto {
       border: 3px solid #214152;
   }
   
   
   
- .rac-pagina #box__valores3 .titulo {
+ .racipe-pagina #box__valores3 .titulo {
       background: #0a557d;
       padding: 25px;
   
   }
   
- .rac-pagina #box__valores3 .texto {
+ .racipe-pagina #box__valores3 .texto {
       border: 3px solid #0a557d;
   }
   
   
- .rac-pagina section#section__valores a {
+ .racipe-pagina section#section__valores a {
       width: 170px;
       padding: 10px;
       border-radius: 100px;
@@ -1113,7 +1119,7 @@ html {
   }
   
   
- .rac-pagina section#section__valores a:hover { 
+ .racipe-pagina section#section__valores a:hover { 
       background-color: #20a87b;
       transition: .5s;
   }
@@ -1129,7 +1135,7 @@ html {
       display: none;
   }
   
-    .rac-pagina section#section__informacoesTecnicas h1 {
+    .racipe-pagina section#section__informacoesTecnicas h1 {
           margin-top: -35px !important;
       }
   
@@ -1149,22 +1155,22 @@ html {
       }
       
   
-     .rac-pagina > section > div {
+     .racipe-pagina > section > div {
           padding: 24px;
       }
   
   
   
   
-     .rac-pagina section#section__home h2 {
+     .racipe-pagina section#section__home h2 {
           font-size: 100px;
       }
   
-     .rac-pagina section#section__home h1 {
+     .racipe-pagina section#section__home h1 {
           font-size: 16px;
       }
   
-     .rac-pagina section#section__home a.comprar {
+     .racipe-pagina section#section__home a.comprar {
           width: 200px;
           padding: 10px;
           font-size: 20px;
@@ -1172,15 +1178,15 @@ html {
       }
   
   
-     .rac-pagina section#section__home__landscape h2 {
+     .racipe-pagina section#section__home__landscape h2 {
           font-size: 100px;
       }
   
-     .rac-pagina section#section__home__landscape h1 {
+     .racipe-pagina section#section__home__landscape h1 {
           font-size: 20px;
       }
   
-     .rac-pagina section#section__home__landscape a.comprar {
+     .racipe-pagina section#section__home__landscape a.comprar {
           width: 200px;
           padding: 10px;
           font-size: 20px;
@@ -1198,15 +1204,15 @@ html {
   @media screen and (max-width: 767px) {
   
   
-     .rac-pagina .box__valores .titulo h5 {
+     .racipe-pagina .box__valores .titulo h5 {
           font-size: 20px !important;
       }
   
-     .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo img.devices-comofunciona {
+     .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo img.devices-comofunciona {
           max-width: 70%;
       }
   
-     .rac-pagina section#section__infosProduto .section___row {
+     .racipe-pagina section#section__infosProduto .section___row {
          flex-direction: column;
       }
   
@@ -1218,7 +1224,7 @@ html {
           margin-top: -80px !important;
       }
   
-     .rac-pagina section#section__infosProduto .box__infosProduto {
+     .racipe-pagina section#section__infosProduto .box__infosProduto {
           width: 80%;
           /*background-color: #193645;*/
           display: flex;
@@ -1230,7 +1236,7 @@ html {
           flex-direction: column;
       }
   
-     .rac-pagina section#section__infosProduto .box__infosProduto .icone {
+     .racipe-pagina section#section__infosProduto .box__infosProduto .icone {
           /*background: #30bf8f;*/
           width: 100%!important;
           border-top-left-radius: 10px;
@@ -1238,10 +1244,10 @@ html {
           border-bottom-left-radius: 0;
           display: flex;
           justify-content: center;
-          min-height: 100px;
+          min-height: 100px !important;
       }
   
-     .rac-pagina section#section__infosProduto h3 {
+     .racipe-pagina section#section__infosProduto h3 {
           font-size: 32px;
           line-height: 44px;
           text-align: center;
@@ -1250,7 +1256,7 @@ html {
           margin-bottom: 50px;
       }
   
-     .rac-pagina section#section__temas {
+     .racipe-pagina section#section__temas {
           /* background: #032333; */
           display: flex;
           align-items: center;
@@ -1269,16 +1275,16 @@ html {
       }
   
   
-     .rac-pagina section#section__temas h1,.rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo h1,.rac-pagina section#section__informacoesTecnicas h1,.rac-pagina section#section__valores h1 {
+     .racipe-pagina section#section__temas h1,.racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo h1,.racipe-pagina section#section__informacoesTecnicas h1,.racipe-pagina section#section__valores h1 {
           font-size: 25px;
       }
   
-     .rac-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo h1 {
+     .racipe-pagina section#section__imedFeitoSobMedidaParaOSeuObjetivo h1 {
           margin-top: -85px;
       }
   
   
-     .rac-pagina .box-container {
+     .racipe-pagina .box-container {
           display: flex;
           flex-direction: column;
           margin-bottom: 30px;
@@ -1290,25 +1296,25 @@ html {
           margin-bottom: 40px;
       }
   
-     .rac-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo {
+     .racipe-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo {
           margin-right: 0;
       }
   /*
-     .rac-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo {
+     .racipe-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo {
           height: auto !important;
       }*/
   
-     .rac-pagina .coluna__imagem {
+     .racipe-pagina .coluna__imagem {
           display: none;
       }
   
-     .rac-pagina .panels {
+     .racipe-pagina .panels {
           padding: 0 35px;
           margin-top: 25px;
           width: 100%;
       }
   
-     .rac-pagina .box__informacoesTecnicas {
+     .racipe-pagina .box__informacoesTecnicas {
           display: flex;
           height: 580px;
           margin: 70px 0;
@@ -1316,7 +1322,7 @@ html {
       }
   
   
-     .rac-pagina section#section__informacoesTecnicas h1 {
+     .racipe-pagina section#section__informacoesTecnicas h1 {
           margin-top: -55px !important;
       }
   
@@ -1327,7 +1333,7 @@ html {
       }
   
   
-     .rac-pagina .panels {
+     .racipe-pagina .panels {
           padding: 25px !important;
           margin-top: 0 !important;
           width: 100% !important;
@@ -1337,13 +1343,13 @@ html {
           width: 100%;
       }
   
-    .rac-pagina #section__informacoesTecnicas a.btn_informacoesTecnicas {
+    .racipe-pagina #section__informacoesTecnicas a.btn_informacoesTecnicas {
           font-size: 12px !important;
           font-weight: 900px !important;
       }
   
   
-      #section__valores.rac-pagina .box-container {
+      #section__valores.racipe-pagina .box-container {
           margin: 0 !important;
       }
   
@@ -1352,7 +1358,7 @@ html {
           margin-bottom: 30px;
       }
   
-     .rac-pagina .box__valores:last-of-type {
+     .racipe-pagina .box__valores:last-of-type {
           margin-bottom: 0;
       }
   
@@ -1371,7 +1377,7 @@ html {
           margin-top: 20px;
       }
   
-     .rac-pagina #nextSection {
+     .racipe-pagina #nextSection {
           width: 120px !important;
       }
   
@@ -1397,11 +1403,11 @@ html {
           line-height: 36px;
       }
   
-     .rac-pagina .tabs {
+     .racipe-pagina .tabs {
           border-top-left-radius: 10px;
       }
   
-     .rac-pagina .coluna__texto {
+     .racipe-pagina .coluna__texto {
           background: #193645;
           border-top-right-radius: 10px;
           border-bottom-right-radius: 10px;
@@ -1409,7 +1415,7 @@ html {
           border-top-left-radius: 10px;
       }
   
-     .rac-pagina .tabs .tab {
+     .racipe-pagina .tabs .tab {
           border-top-left-radius: 10px !important;
       }
   

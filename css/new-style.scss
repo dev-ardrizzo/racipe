@@ -2,10 +2,14 @@ a.basel-sticky-sidebar-opener {
     display: none !important;
 }
 
-$colorPrimary: #004d72;
+.main-page-wrapper {
+    padding-top: 0 !important;
+}
+
+$colorPrimary: #4e4b38;
 $shadow: 0px 1px 22px rgba(0,0,0,0.1);
 
-.page-template-template-rac {
+.page-template-template-racipe {
   
     .website-wrapper {
         width: 100%;
@@ -14,14 +18,15 @@ $shadow: 0px 1px 22px rgba(0,0,0,0.1);
             padding-left: 15px;
         }
     }
-
-    .container {
-        margin: 0 !important;
-        padding: 0 !important;
-        width: 100%;
-        max-width: none !important;
+    .main-page-wrapper {
+        .container {
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100%;
+            max-width: none !important;
+        }
     }
-
+        
 }
 
 
@@ -29,7 +34,7 @@ body {
     display: flex;
 }
 
-.rac-pagina{
+.racipe-pagina{
     width: 100%;
 }
 
@@ -47,7 +52,7 @@ body {
 
 @media screen and (max-width: 320px) {
 
-    .rac-pagina {
+    .racipe-pagina {
         .box__imedFeitoSobMedidaParaOSeuObjetivo {
             width: 100% !important;
         }
@@ -58,11 +63,18 @@ body {
 
     .chamada {
         transform: scale(0.8);
+        flex-direction: column !important;
     }
 
 
-    .rac-pagina {
+    .racipe-pagina {
 
+
+        #section__temas {
+            ul.items__temas {
+                margin-left: 30px !important;
+            }
+        }
 
         #section__home {
             background-position: center right;
@@ -89,12 +101,17 @@ body {
     
             .column {
                 margin-left: 0 !important;
-    
+
+                .row {
+                    flex-direction: column !important;
+                    margin: 0;
+                }
+                
 
 
                 span.separator {
                     width: 100% !important;
-                    background: #d3dfe4;
+                    background:#4e4b382e;
                     height: 1px !important;
                 }
 
@@ -113,11 +130,16 @@ h2,h4 {
     color: $colorPrimary !important;
 }
 
+.icone {
+    min-height: auto !important;
+}
+
+
+.racipe-pagina {
 
 
 
-.rac-pagina {
-
+    
     // Section
     #section__home {
         padding: 30px 0;
@@ -129,27 +151,40 @@ h2,h4 {
         .chamada {
             font-weight: 900;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             color: $colorPrimary;
             margin-bottom: 20px;
+            align-items: center;
             
     
             .chamada__top {
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 align-items: center;
+                border: 2px solid #8e966191;
+                padding: 15px;
     
                 .chamada__top--left {
-                    font-size: 55px;
+                    font-size: 65px;
                     font-weight: 900;
+                    line-height: 65px;
                 }
     
                 .chamada__top--right {
                     font-size: 20px;
-                    margin-left: 10px;
                     font-weight: 400;
                     b {
                         font-weight: 900;
+                    }
+
+                    .right__top,
+                    .right__bottom {
+                        display: flex;
+                        justify-content: center;
+                    }
+
+                    .right__bottom {
+                        font-size: 20.5px;
                     }
                 }
     
@@ -159,6 +194,7 @@ h2,h4 {
                 font-size: 128px;
                 font-weight: 900;
                 line-height: 110px;
+                padding: 15px;
             }
     
         }
@@ -174,7 +210,8 @@ h2,h4 {
     // Section
     #section__infosProduto {
         img {
-            filter: brightness(0.5);
+            // filter: brightness(0.5);
+            filter: drop-shadow(1px 1px 23px #4e4b38);
         }        
     }
 
@@ -208,6 +245,10 @@ h2,h4 {
         .column {
             margin-left: 20px;
             
+            .row {
+                display: flex;
+                flex-direction: row;
+            }
 
             span.separator {
                 height: 100%;
@@ -228,12 +269,12 @@ h2,h4 {
                 box-shadow: $shadow;
 
                 .titulo {
-                    height: 80px;
+                    height: 130px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    background: #d3dfe4 !important;
-                    border-bottom: 3px solid #b7cad2;
+                    background: #c9db89 !important;
+                    border-bottom: 3px solid #a7b965;
                     padding: 25px;
                     text-transform: uppercase;
                     h5 {
@@ -279,14 +320,21 @@ h2,h4 {
             box-shadow: $shadow !important;
         }
 
+        .tab.active {
+            img {
+                filter: invert(1) !important;
+            }
+        }
+
  
         img {
-            filter: brightness(0.5);                
+            // filter: brightness(0.5);                
+            filter: drop-shadow(1px 1px 23px #4e4b38);
         }
 
         .box__informacoesTecnicas {
             .coluna__imagem {
-                background: #d3dfe4 !important;
+                background: #c9db89 !important;
             }
             .coluna__texto {
                 background: #ffffff !important;;

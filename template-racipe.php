@@ -20,7 +20,7 @@ get_header(); ?>
 
 <body>
 	
-	<div class="rac-pagina">
+	<div class="racipe-pagina">
 	
 
 		<section id="section__home">
@@ -32,17 +32,17 @@ get_header(); ?>
 				<div class="chamada__top">
 				
 					<div class="chamada__top--left">
-						RAC
+						RACIPE
 					</div>
 
 					<div class="chamada__top--right">				
 					
 						<div class="right__top">				
-							REVISÃO AVANÇADA
+							REVISÃO AVANÇADA DE
 						</div>
 						
 						<div class="right__bottom">				
-							DE <b>CLÍNICA MÉDICA</b>
+							<b>CIRURGIA E PEDIATRIA</b>
 						</div>	
 
 					</div>
@@ -129,22 +129,19 @@ get_header(); ?>
 					
 					<div class="coluna">
 						<ul class="items__temas">
-							<li>Diálise e Transplante</li>
-							<li>Ventilação Mecânica</li>
-							<li>Prescrição Médica</li>
-							<li>Geriatria</li>
-							<li>Desordens dos nervos cranianos</li>
+							<li>Anestesiologia</li>
+							<li>Cirurgia Plástica</li>
+							<li>Cirurgia Vascular</li>
+							<li>Cirurgia Pediátrica</li>
 						</ul>
 					</div>
 	
 	
 					<div class="coluna">
 						<ul class="items__temas">
-							<li>Trombose de seios durais</li>
-							<li>Doenças desmielinizantes</li>
-							<li>Oncologia</li>
-							<li>Infecções associadas ao cateter venoso central</li>
-							<li>Tabagismo</li>
+							<li>Emergências Pediátricas: choque, crise febril</li>
+							<li>Fibrose cística e Imunodeficiências primárias</li>
+							<li>Transtorno do espectro do autismo; alergias alimentares; maus-tratos na infância</li>
 						</ul>
 					</div>
 	
@@ -164,23 +161,25 @@ get_header(); ?>
 					<div class="column">
 						<h2>Preço promocional para
 							contratantes do Intensivão 2020</h2>
-						<div class="box__valores">
-							<div class="titulo">
-								<h5>À vista</h5>
+						<div class="row">
+							<div class="box__valores">
+								<div class="titulo">
+									<h5>À vista</h5>
+								</div>
+								<div class="texto">
+									<p class="medio">R$ 588,00</p>
+									<p>(no boleto bancário)</p>
+								</div>
 							</div>
-							<div class="texto">
-								<p class="medio">R$368,00</p>
-								<p>no boleto bancário</p>
-							</div>
-						</div>
-						<div class="box__valores">
-							<div class="titulo">
-								<h5>Cheque pós datato</h5>
-							</div>
-							<div class="texto">
-								<p class="medio">R$ 648,00</p>
-								<p>parcela única, datada<br>
-									para 15/02/2020*</p>
+							<div class="box__valores">
+								<div class="titulo">
+									<h5>Cheque pós datato</h5>
+								</div>
+								<div class="texto">
+									<p class="medio">R$ 648,00</p>
+									<p>parcela única, datada<br>
+										para 15/02/2020*</p>
+								</div>
 							</div>
 						</div>
 						<p>*Sujeito a aprovação</p>
@@ -193,21 +192,23 @@ get_header(); ?>
 					<div class="column">
 						<h2>Preço para demais contratantes
 							à vista no boleto bancário</h2>
-						<div class="box__valores">
-							<div class="titulo">
-								<h5>Já fez ou faz algum programa
-									preparatório do MEDGRUPO</h5>
+						<div class="row">
+							<div class="box__valores">
+								<div class="titulo">
+									<h5>Já fez ou faz algum programa
+										preparatório do MEDGRUPO</h5>
+								</div>
+								<div class="texto">
+									<p class="medio">R$ 1.938,00</p>
+								</div>
 							</div>
-							<div class="texto">
-								<p class="medio">R$ 1.938,00</p>
-							</div>
-						</div>
-						<div class="box__valores">
-							<div class="titulo">
-								<h5>Novo no MEDGRUPO</h5>
-							</div>
-							<div class="texto">
-								<p class="medio">R$ 2.638,00</p>
+							<div class="box__valores">
+								<div class="titulo">
+									<h5>Novo no MEDGRUPO</h5>
+								</div>
+								<div class="texto">
+									<p class="medio">R$ 2.638,00</p>
+								</div>
 							</div>
 						</div>
 					</div>

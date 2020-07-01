@@ -1,12 +1,15 @@
 a.basel-sticky-sidebar-opener {
   display: none !important; }
 
-.page-template-template-rac .website-wrapper {
+.main-page-wrapper {
+  padding-top: 0 !important; }
+
+.page-template-template-racipe .website-wrapper {
   width: 100%; }
-  .page-template-template-rac .website-wrapper .main-page-wrapper {
+  .page-template-template-racipe .website-wrapper .main-page-wrapper {
     padding-right: 15px;
     padding-left: 15px; }
-.page-template-template-rac .container {
+.page-template-template-racipe .main-page-wrapper .container {
   margin: 0 !important;
   padding: 0 !important;
   width: 100%;
@@ -15,7 +18,7 @@ a.basel-sticky-sidebar-opener {
 body {
   display: flex; }
 
-.rac-pagina {
+.racipe-pagina {
   width: 100%; }
 
 @media screen and (max-width: 1366px) and (min-width: 767px) {
@@ -27,116 +30,140 @@ body {
   section#section__informacoesTecnicas {
     padding: 30px !important; } }
 @media screen and (max-width: 320px) {
-  .rac-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo {
+  .racipe-pagina .box__imedFeitoSobMedidaParaOSeuObjetivo {
     width: 100% !important; } }
 @media screen and (max-width: 767px) {
   .chamada {
-    transform: scale(0.8); }
+    transform: scale(0.8);
+    flex-direction: column !important; }
 
-  .rac-pagina #section__home {
+  .racipe-pagina #section__temas ul.items__temas {
+    margin-left: 30px !important; }
+  .racipe-pagina #section__home {
     background-position: center right; }
-  .rac-pagina #section__valores .column:nth-child(1) {
+  .racipe-pagina #section__valores .column:nth-child(1) {
     flex: 1; }
-  .rac-pagina #section__valores .column:nth-child(2) {
+  .racipe-pagina #section__valores .column:nth-child(2) {
     flex: 1;
     width: 100%;
     padding: 50px 0px; }
-  .rac-pagina #section__valores .column:nth-child(3) {
+  .racipe-pagina #section__valores .column:nth-child(3) {
     flex: 1; }
-  .rac-pagina #section__valores .column {
+  .racipe-pagina #section__valores .column {
     margin-left: 0 !important; }
-    .rac-pagina #section__valores .column span.separator {
+    .racipe-pagina #section__valores .column .row {
+      flex-direction: column !important;
+      margin: 0; }
+    .racipe-pagina #section__valores .column span.separator {
       width: 100% !important;
-      background: #d3dfe4;
+      background: #4e4b382e;
       height: 1px !important; } }
 p,
 li,
 h2, h4 {
-  color: #004d72 !important; }
+  color: #4e4b38 !important; }
 
-.rac-pagina #section__home {
+.icone {
+  min-height: auto !important; }
+
+.racipe-pagina #section__home {
   padding: 30px 0; }
-  .rac-pagina #section__home h1 {
-    color: #004d72 !important; }
-  .rac-pagina #section__home .chamada {
+  .racipe-pagina #section__home h1 {
+    color: #4e4b38 !important; }
+  .racipe-pagina #section__home .chamada {
     font-weight: 900;
     display: flex;
-    flex-direction: column;
-    color: #004d72;
-    margin-bottom: 20px; }
-    .rac-pagina #section__home .chamada .chamada__top {
+    flex-direction: row;
+    color: #4e4b38;
+    margin-bottom: 20px;
+    align-items: center; }
+    .racipe-pagina #section__home .chamada .chamada__top {
       display: flex;
-      flex-direction: row;
-      align-items: center; }
-      .rac-pagina #section__home .chamada .chamada__top .chamada__top--left {
-        font-size: 55px;
-        font-weight: 900; }
-      .rac-pagina #section__home .chamada .chamada__top .chamada__top--right {
+      flex-direction: column;
+      align-items: center;
+      border: 2px solid #8e966191;
+      padding: 15px; }
+      .racipe-pagina #section__home .chamada .chamada__top .chamada__top--left {
+        font-size: 65px;
+        font-weight: 900;
+        line-height: 65px; }
+      .racipe-pagina #section__home .chamada .chamada__top .chamada__top--right {
         font-size: 20px;
-        margin-left: 10px;
         font-weight: 400; }
-        .rac-pagina #section__home .chamada .chamada__top .chamada__top--right b {
+        .racipe-pagina #section__home .chamada .chamada__top .chamada__top--right b {
           font-weight: 900; }
-    .rac-pagina #section__home .chamada .chamada__bottom {
+        .racipe-pagina #section__home .chamada .chamada__top .chamada__top--right .right__top,
+        .racipe-pagina #section__home .chamada .chamada__top .chamada__top--right .right__bottom {
+          display: flex;
+          justify-content: center; }
+        .racipe-pagina #section__home .chamada .chamada__top .chamada__top--right .right__bottom {
+          font-size: 20.5px; }
+    .racipe-pagina #section__home .chamada .chamada__bottom {
       font-size: 128px;
       font-weight: 900;
-      line-height: 110px; }
-  .rac-pagina #section__home #nextSection {
+      line-height: 110px;
+      padding: 15px; }
+  .racipe-pagina #section__home #nextSection {
     filter: invert(1); }
-.rac-pagina #section__infosProduto img {
-  filter: brightness(0.5); }
-.rac-pagina #section__temas li {
-  color: #004d72 !important; }
-.rac-pagina #section__valores .column:nth-child(1) {
+.racipe-pagina #section__infosProduto img {
+  filter: drop-shadow(1px 1px 23px #4e4b38); }
+.racipe-pagina #section__temas li {
+  color: #4e4b38 !important; }
+.racipe-pagina #section__valores .column:nth-child(1) {
   flex: 8; }
-.rac-pagina #section__valores .column:nth-child(2) {
+.racipe-pagina #section__valores .column:nth-child(2) {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center; }
-.rac-pagina #section__valores .column:nth-child(3) {
+.racipe-pagina #section__valores .column:nth-child(3) {
   flex: 8; }
-.rac-pagina #section__valores .column {
+.racipe-pagina #section__valores .column {
   margin-left: 20px; }
-  .rac-pagina #section__valores .column span.separator {
+  .racipe-pagina #section__valores .column .row {
+    display: flex;
+    flex-direction: row; }
+  .racipe-pagina #section__valores .column span.separator {
     height: 100%;
     background: #d3dfe4;
     width: 1px; }
-  .rac-pagina #section__valores .column h2 {
+  .racipe-pagina #section__valores .column h2 {
     text-align: center;
     font-weight: 900;
     margin-bottom: 30px; }
-  .rac-pagina #section__valores .column .box__valores {
+  .racipe-pagina #section__valores .column .box__valores {
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0px 1px 22px rgba(0, 0, 0, 0.1); }
-    .rac-pagina #section__valores .column .box__valores .titulo {
-      height: 80px;
+    .racipe-pagina #section__valores .column .box__valores .titulo {
+      height: 130px;
       display: flex;
       justify-content: center;
       align-items: center;
-      background: #d3dfe4 !important;
-      border-bottom: 3px solid #b7cad2;
+      background: #c9db89 !important;
+      border-bottom: 3px solid #a7b965;
       padding: 25px;
       text-transform: uppercase; }
-      .rac-pagina #section__valores .column .box__valores .titulo h5 {
+      .racipe-pagina #section__valores .column .box__valores .titulo h5 {
         font-size: 16px !important;
         font-weight: 600 !important;
         max-width: 300px;
-        color: #004d72; }
-    .rac-pagina #section__valores .column .box__valores .texto {
+        color: #4e4b38; }
+    .racipe-pagina #section__valores .column .box__valores .texto {
       height: 200px; }
-.rac-pagina #section__imedFeitoSobMedidaParaOSeuObjetivo .box__imedFeitoSobMedidaParaOSeuObjetivo .icone img {
+.racipe-pagina #section__imedFeitoSobMedidaParaOSeuObjetivo .box__imedFeitoSobMedidaParaOSeuObjetivo .icone img {
   filter: brightness(0.5); }
-.rac-pagina #section__imedFeitoSobMedidaParaOSeuObjetivo .box__imedFeitoSobMedidaParaOSeuObjetivo .texto p {
-  color: #004d72 !important; }
-.rac-pagina #section__informacoesTecnicas .box__informacoesTecnicas {
+.racipe-pagina #section__imedFeitoSobMedidaParaOSeuObjetivo .box__imedFeitoSobMedidaParaOSeuObjetivo .texto p {
+  color: #4e4b38 !important; }
+.racipe-pagina #section__informacoesTecnicas .box__informacoesTecnicas {
   box-shadow: 0px 1px 22px rgba(0, 0, 0, 0.1) !important; }
-.rac-pagina #section__informacoesTecnicas img {
-  filter: brightness(0.5); }
-.rac-pagina #section__informacoesTecnicas .box__informacoesTecnicas .coluna__imagem {
-  background: #d3dfe4 !important; }
-.rac-pagina #section__informacoesTecnicas .box__informacoesTecnicas .coluna__texto {
+.racipe-pagina #section__informacoesTecnicas .tab.active img {
+  filter: invert(1) !important; }
+.racipe-pagina #section__informacoesTecnicas img {
+  filter: drop-shadow(1px 1px 23px #4e4b38); }
+.racipe-pagina #section__informacoesTecnicas .box__informacoesTecnicas .coluna__imagem {
+  background: #c9db89 !important; }
+.racipe-pagina #section__informacoesTecnicas .box__informacoesTecnicas .coluna__texto {
   background: #ffffff !important; }
 
 /*# sourceMappingURL=new-style.css.map */
