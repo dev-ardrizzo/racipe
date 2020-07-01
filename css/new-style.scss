@@ -1,0 +1,298 @@
+a.basel-sticky-sidebar-opener {
+    display: none !important;
+}
+
+$colorPrimary: #004d72;
+$shadow: 0px 1px 22px rgba(0,0,0,0.1);
+
+.page-template-template-rac {
+  
+    .website-wrapper {
+        width: 100%;
+        .main-page-wrapper {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    }
+
+    .container {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100%;
+        max-width: none !important;
+    }
+
+}
+
+
+body {
+    display: flex;
+}
+
+.rac-pagina{
+    width: 100%;
+}
+
+@media screen and (max-width: 1366px) and (min-width: 767px){
+    section#section__home,
+    section#section__infosProduto,
+    section#section__temas p,
+    section#section__valores,
+    section#section__imedFeitoSobMedidaParaOSeuObjetivo,
+    section#section__informacoesTecnicas {
+        padding: 30px !important;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .rac-pagina {
+        .box__imedFeitoSobMedidaParaOSeuObjetivo {
+            width: 100% !important;
+        }
+    }
+}
+
+@media screen and (max-width: 767px)  {
+
+    .chamada {
+        transform: scale(0.8);
+    }
+
+
+    .rac-pagina {
+
+
+        #section__home {
+            background-position: center right;
+        }
+
+
+        #section__valores {
+        
+            
+            .column:nth-child(1) {
+                flex: 1;
+            }
+    
+            .column:nth-child(2) {
+                flex: 1;
+                width: 100%;
+                padding: 50px 0px;
+            }
+    
+            .column:nth-child(3) {
+                flex: 1;            
+            }
+    
+    
+            .column {
+                margin-left: 0 !important;
+    
+
+
+                span.separator {
+                    width: 100% !important;
+                    background: #d3dfe4;
+                    height: 1px !important;
+                }
+
+            }
+    
+        }
+
+    }
+
+}
+
+
+p,
+li,
+h2,h4 {
+    color: $colorPrimary !important;
+}
+
+
+
+
+.rac-pagina {
+
+    // Section
+    #section__home {
+        padding: 30px 0;
+
+        h1 {
+            color: $colorPrimary !important;
+        }
+
+        .chamada {
+            font-weight: 900;
+            display: flex;
+            flex-direction: column;
+            color: $colorPrimary;
+            margin-bottom: 20px;
+            
+    
+            .chamada__top {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+    
+                .chamada__top--left {
+                    font-size: 55px;
+                    font-weight: 900;
+                }
+    
+                .chamada__top--right {
+                    font-size: 20px;
+                    margin-left: 10px;
+                    font-weight: 400;
+                    b {
+                        font-weight: 900;
+                    }
+                }
+    
+            }
+    
+            .chamada__bottom {
+                font-size: 128px;
+                font-weight: 900;
+                line-height: 110px;
+            }
+    
+        }
+
+
+        #nextSection {
+            filter: invert(1);
+
+        }
+
+    }
+
+    // Section
+    #section__infosProduto {
+        img {
+            filter: brightness(0.5);
+        }        
+    }
+
+    // Section
+    #section__temas {
+        li {
+            color:$colorPrimary !important;
+        }
+    }
+
+    // Section
+    #section__valores {
+        
+
+        .column:nth-child(1) {
+            flex: 8;
+        }
+
+        .column:nth-child(2) {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .column:nth-child(3) {
+            flex: 8;            
+        }
+
+
+        .column {
+            margin-left: 20px;
+            
+
+            span.separator {
+                height: 100%;
+                background: #d3dfe4;
+                width: 1px;
+            }
+
+           
+            h2{
+                text-align: center;
+                font-weight: 900;
+                margin-bottom: 30px;
+            }
+
+            .box__valores {
+                margin-bottom: 20px;
+                border-radius: 10px;
+                box-shadow: $shadow;
+
+                .titulo {
+                    height: 80px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: #d3dfe4 !important;
+                    border-bottom: 3px solid #b7cad2;
+                    padding: 25px;
+                    text-transform: uppercase;
+                    h5 {
+                        font-size: 16px !important;
+                        font-weight: 600 !important;
+                        max-width: 300px;
+                        color: $colorPrimary;
+                    }
+                }
+                
+                .texto {
+                    height: 200px;
+                }
+            
+            }
+
+        }
+
+    }
+
+    // Section
+    #section__imedFeitoSobMedidaParaOSeuObjetivo {
+        .box__imedFeitoSobMedidaParaOSeuObjetivo {
+            .icone {
+                img {
+                    filter: brightness(0.5);
+                }
+            }
+
+            .texto {
+               p {
+                color: $colorPrimary !important;
+               }
+            }
+        }
+    }
+
+    // Section
+    #section__informacoesTecnicas {
+
+
+        .box__informacoesTecnicas {
+            box-shadow: $shadow !important;
+        }
+
+ 
+        img {
+            filter: brightness(0.5);                
+        }
+
+        .box__informacoesTecnicas {
+            .coluna__imagem {
+                background: #d3dfe4 !important;
+            }
+            .coluna__texto {
+                background: #ffffff !important;;
+            }
+        }
+    }
+
+
+}
