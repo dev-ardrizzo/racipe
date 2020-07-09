@@ -86,7 +86,7 @@ html {
     }
   
   .button.button--register:hover {
-      background: #193645 !important;
+      background: #3a3727 !important;
   }
   
   
@@ -512,6 +512,8 @@ html {
  .racipe-pagina section#section__infosProduto  .section___row {
       display: flex;
       flex-direction: row;
+      justify-content: center;
+      align-items: center;
       margin-bottom: 30px;
   }
   
