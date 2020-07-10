@@ -66,7 +66,7 @@ get_header(); ?>
 						</div>
 						<div class="texto">
 							<span class="large">100% on-line</span>
-							<p>(app MEDSOFT Pro)</p>
+							<p style="margin-bottom:47px">(app MEDSOFT Pro)</p>
 						</div>
 					</div>
 	
@@ -75,20 +75,20 @@ get_header(); ?>
 							<img src="<?php bloginfo('template_directory'); ?>-child/imgs/icone-reader.svg" alt="" class="icone__reader">
 						</div>
 						<div class="texto">
-							<span class="large">3 apostilas digitais</span>
+							<span class="large">3 apostilas digitais</span>	
 							<p>+ de 90 vídeos entremeados<br>no material</p>
 						</div>
 					</div>
 	
-					<!-- <div class="box__infosProduto">
+					<div class="box__infosProduto">
 						<div class="icone">
 							<img src="<?php bloginfo('template_directory'); ?>-child/imgs/icone-calendario.svg" alt="" class="icone__calendario">
 						</div>
 						<div class="texto">
-							<span class="large">1 apostila DIGITAL</span>
-							<p><span class="large">por semana</span><br>(3 semanas)</p>
+							<span class="large">Liberação de conteúdo</span>
+							<p style="margin-bottom:47px">Disponível a partir de 09/10</p>
 						</div>
-					</div> -->
+					</div>
 				</div>
 			</div>
 	
